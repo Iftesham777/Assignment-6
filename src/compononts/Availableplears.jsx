@@ -86,7 +86,7 @@ const PricingCards = () => {
 
           <ul className="mt-4 space-y-2 text-gray-600 text-sm">
             {plan.features.map((feature, i) => (
-              <li key={i}>✔ {feature}</li>
+              <li key={i}> {feature}</li>
             ))}
           </ul>
 
